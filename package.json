@@ -1,0 +1,23 @@
+{
+  "name": "inquirer",
+  "version": "6.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zkdtc",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkdtc/README_generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zkdtc/README_generator/issues"
+  },
+  "homepage": "https://github.com/zkdtc/README_generator#readme"
+}
