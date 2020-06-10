@@ -106,7 +106,7 @@ inquirer.prompt([
       output = output + license_apache;
     }
 
-    fs.writeFile(filename, JSON.stringify(output, null, '\t'), function (err) {
+    fs.writeFile(filename, output, function (err) {
 
       if (err) {
         return console.log(err);
