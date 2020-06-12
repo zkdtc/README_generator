@@ -104,10 +104,12 @@ inquirer.prompt([
     else{
       output = output +'## License \n'+ license_gnu;
     }
-
+    output+='<br/>'
     //      Badge
     output+='![alt text](https://travis-ci.org/'+data.username+'/'+data.repo+'.svg?branch=master)'
-
+    output+='<br/>'
+    // github profile image
+    output+='![alt text](https://github.com/'+data.username+'.png'
     fs.writeFile(filename, output, function (err) {
 
       if (err) {
