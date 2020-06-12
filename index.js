@@ -21,7 +21,7 @@ inquirer.prompt([
   {
     type: "input",
     name: "username",
-    message: "Please enter your github username:"
+    message: "Welcome to the REAME generator! Please enter your github username:"
   },
   {
     type: "input",

@@ -1,6 +1,6 @@
-# REAME Generator  ![alt text](https://travis-ci.org/zkdtc/README_generator.svg?branch=master)
+# README Generator  ![alt text](https://travis-ci.org/zkdtc/README_generator.svg?branch=master)
 ## Description 
-
+This project helps you make good REAME in github.
 ## Table of Content 
  * [Installation](#installation)
  * [Usage](#usage)
@@ -9,15 +9,15 @@
  * [Questions](#questions) 
  * [License](#license) 
 ## Installation 
-
+Just use it!
 ## Usage 
-
+Use whatever you want.
 ## Contributing 
-
+Code!
 ## Tests 
- 
+ No test yet.
 ## Questions 
-
+Build failure.
 ## Contact 
 null
 ## License 
