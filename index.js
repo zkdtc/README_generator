@@ -81,7 +81,8 @@ inquirer.prompt([
     console.log(res);
     var filename = "README.md";
     var output = '# ' + data.title +'![alt text](https://travis-ci.org/'+data.username+'/'+data.repo+'.svg?branch=master)';
-    output+='<br/> ## Description \n' + data.description + '\n';
+    output+='\n';
+    output += '## Description \n' + data.description + '\n';
     output += '## Table of Content \n * [Installation](#installation)\n * [Usage](#usage)\n * [Contributing](#contributing)\n * [Test](#test)\n * [Questions](#questions) \n * [License](#license) \n'
     output += '## Installation \n' + data.installation + '\n';
     output += '## Usage \n' + data.usage + '\n';
