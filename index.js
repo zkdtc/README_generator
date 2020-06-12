@@ -80,7 +80,7 @@ inquirer.prompt([
   axios.get(queryUrl).then(function (res) {
     console.log(res);
     var filename = "README.md";
-    var output = '# ' + data.title +'![alt text](https://travis-ci.org/'+data.username+'/'+data.repo+'.svg?branch=master)';
+    var output = '# ' + data.title +'  ![alt text](https://travis-ci.org/'+data.username+'/'+data.repo+'.svg?branch=master)';
     output+='\n';
     output += '## Description \n' + data.description + '\n';
     output += '## Table of Content \n * [Installation](#installation)\n * [Usage](#usage)\n * [Contributing](#contributing)\n * [Test](#test)\n * [Questions](#questions) \n * [License](#license) \n'
