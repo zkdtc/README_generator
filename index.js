@@ -80,7 +80,8 @@ inquirer.prompt([
   axios.get(queryUrl).then(function (res) {
     console.log(res);
     var filename = "README.md";
-    var output = '# ' + data.title + '\n' + '## Description \n' + data.description + '\n';
+    var output = '# ' + data.title +'![alt text](https://travis-ci.org/'+data.username+'/'+data.repo+'.svg?branch=master)';
+    output+='<br/> ## Description \n' + data.description + '\n';
     output += '## Table of Content \n * [Installation](#installation)\n * [Usage](#usage)\n * [Contributing](#contributing)\n * [Test](#test)\n * [Questions](#questions) \n * [License](#license) \n'
     output += '## Installation \n' + data.installation + '\n';
     output += '## Usage \n' + data.usage + '\n';
@@ -104,9 +105,6 @@ inquirer.prompt([
     else{
       output = output +'## License \n'+ license_gnu;
     }
-    output+='<br/>'
-    //      Badge
-    output+='![alt text](https://travis-ci.org/'+data.username+'/'+data.repo+'.svg?branch=master)'
     output+='<br/>'
     // github profile image
     output+='![alt text](https://github.com/'+data.username+'.png)'
